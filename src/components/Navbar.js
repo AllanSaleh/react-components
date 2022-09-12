@@ -3,7 +3,7 @@ import Button from "./Button";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <h1>Task Finisher</h1>
+      <h1>Task Tracker</h1>
       <Button />
     </div>
   );

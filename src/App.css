@@ -1,3 +1,8 @@
+button {
+  border-radius: 1rem;
+  border: none;
+}
+
 .red-btn {
   background-color: red;
   color: white;
@@ -7,11 +12,24 @@
 .navbar {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid black;
 }
 
 .form {
-  width: 50%;
+  width: 60%;
   margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-block: 4rem;
+  font-size: 1.5rem;
+}
+
+.reminder-checkbox {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .save {
@@ -25,4 +43,22 @@
   display: flex;
   justify-content: space-around;
   gap: 0.5rem;
+  align-items: center;
+}
+
+.label {
+  display: block;
+}
+
+#task-input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.list-of-tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: lightgray;
 }
